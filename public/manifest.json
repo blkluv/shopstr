@@ -1,6 +1,6 @@
 {
-  "name": "Shopstr",
-  "short_name": "Shopstr",
+  "name": "Shop",
+  "short_name": "Shop",
   "description": "Shop freely.",
   "start_url": "/",
   "display": "standalone",

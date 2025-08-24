@@ -26,7 +26,7 @@ const OnboardingShopProfile = () => {
                 width={50}
               />
               <h1 className="cursor-pointer text-center text-3xl font-bold text-shopstr-purple-light hover:text-purple-700 dark:text-shopstr-yellow-light">
-                Shopstr
+                Shop.
               </h1>
             </div>
             <div className="mb-4 text-center">

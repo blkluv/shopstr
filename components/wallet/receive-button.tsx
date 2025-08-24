@@ -251,7 +251,7 @@ const ReceiveButton = () => {
               </ModalHeader>
               <ModalBody className="flex flex-col overflow-hidden text-light-text dark:text-dark-text">
                 <div className="flex items-center justify-center">
-                  Your Shopstr wallet balance should now be updated.
+                  Your Shop wallet balance should now be updated.
                 </div>
               </ModalBody>
             </ModalContent>
@@ -284,7 +284,7 @@ const ReceiveButton = () => {
               </ModalHeader>
               <ModalBody className="flex flex-col overflow-hidden text-light-text dark:text-dark-text">
                 <div className="flex items-center justify-center">
-                  The token you are trying to claim is already in your Shopstr
+                  The token you are trying to claim is already in your Shop
                   wallet.
                 </div>
               </ModalBody>

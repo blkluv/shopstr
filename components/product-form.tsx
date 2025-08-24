@@ -152,7 +152,7 @@ export default function ProductForm({
       ["alt", ("Product listing: " + data["Product Name"]) as string],
       [
         "client",
-        "Shopstr",
+        "Shop.",
         "31990:" + pubkey + ":" + (oldValues?.d || hashHex),
         relayHint,
       ],

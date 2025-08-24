@@ -6,12 +6,12 @@ export default function PrivacyPolicy() {
     {
       title: "Introduction",
       content:
-        "Shopstr is committed to protecting your privacy. As a permissionless marketplace, we minimize data collection and processing to ensure your privacy and security. This policy explains our approach to data handling in the context of a permissionless platform.",
+        "Shop is committed to protecting your privacy. As a permissionless marketplace, we minimize data collection and processing to ensure your privacy and security. This policy explains our approach to data handling in the context of a permissionless platform.",
     },
     {
       title: "Information We Don't Collect",
       content:
-        "As a fully permissionless platform with no centralized backend, Shopstr does not collect or store: personal identification information, KYC (Know Your Customer) data, financial information, usage tracking data, or user behavior analytics. All data remains under user control through the Nostr protocol and Bitcoin network.",
+        "As a fully permissionless platform with no centralized backend, Shop does not collect or store: personal identification information, KYC (Know Your Customer) data, financial information, usage tracking data, or user behavior analytics. All data remains under user control through the Nostr protocol and Bitcoin network.",
     },
     {
       title: "Nostr Protocol Data",
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
     {
       title: "Website Usage",
       content:
-        "Our website interface is static and does not use cookies or tracking mechanisms. Any data stored is kept locally in your browser and includes: local keys (if using in-browser storage), user preferences, relay selections, and interface settings. Shopstr has no access to this locally stored information.",
+        "Our website interface is static and does not use cookies or tracking mechanisms. Any data stored is kept locally in your browser and includes: local keys (if using in-browser storage), user preferences, relay selections, and interface settings. Shop has no access to this locally stored information.",
     },
     {
       title: "Third-Party Services",
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
     {
       title: "Contact Information",
       content:
-        "For privacy-related questions, you can reach the Shopstr team through our Nostr channels or GitHub repository.",
+        "For privacy-related questions, you can reach the Shop team through our Nostr channels or GitHub repository.",
     },
   ];
 
@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
         </h1>
 
         <p className="mx-auto mb-10 max-w-3xl text-center text-light-text/80 dark:text-dark-text/80">
-          How Shopstr protects your privacy
+          How Shop protects your privacy
         </p>
 
         <div className="mb-4 text-right text-sm text-light-text/70 dark:text-dark-text/70">

@@ -478,7 +478,7 @@ export default function ClaimButton({ token }: { token: string }) {
               </ModalHeader>
               <ModalBody className="flex flex-col overflow-hidden text-light-text dark:text-dark-text">
                 <div className="flex items-center justify-center">
-                  The token you are trying to claim is already in your Shopstr
+                  The token you are trying to claim is already in your Shop
                   wallet.
                 </div>
               </ModalBody>

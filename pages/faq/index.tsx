@@ -7,9 +7,9 @@ export default function Faq() {
       title: "General Information",
       items: [
         {
-          title: "What is Shopstr?",
+          title: "What is Shop?",
           content:
-            "Shopstr is a permissionless marketplace built on Nostr that enables peer-to-peer commerce using Bitcoin. It provides a secure and private way to buy and sell items via the Lightning Network and Cashu token payments.",
+            "Shop is a permissionless marketplace built on Nostr that enables peer-to-peer commerce using Bitcoin. It provides a secure and private way to buy and sell items via the Lightning Network and Cashu token payments.",
         },
         {
           title: "What is Nostr?",
@@ -24,7 +24,7 @@ export default function Faq() {
         {
           title: "What payment methods are accepted?",
           content:
-            "Shopstr currently supports Bitcoin payments through the Lightning Network and Cashu. These help to facilitate fast, low-fee transactions while maintaining privacy.",
+            "Shop currently supports Bitcoin payments through the Lightning Network and Cashu. These help to facilitate fast, low-fee transactions while maintaining privacy.",
         },
         {
           title: "How do I claim a Cashu payment?",
@@ -37,14 +37,14 @@ export default function Faq() {
       title: "Selling",
       items: [
         {
-          title: "How do I start selling on Shopstr?",
+          title: "How do I start selling on Shop?",
           content:
             "To start selling, you'll simply need to: 1) Create a Nostr account or sign in with existing keys, 2) Set up your profile in settings, 3) List your products with descriptions and images, 4) Start receiving orders!",
         },
         {
           title: "What types of items can I sell?",
           content:
-            "Shopstr supports various product types including physical, resale, exchange, clothing, electronics, collectibles, and more. Each listing should clearly indicate the category and any shipping requirements.",
+            "Shop supports various product types including physical, resale, exchange, clothing, electronics, collectibles, and more. Each listing should clearly indicate the category and any shipping requirements.",
         },
         {
           title: "How does shipping work?",
@@ -79,12 +79,12 @@ export default function Faq() {
         {
           title: "Is there a rating system?",
           content:
-            "Yes, Shopstr implements NIP-85 for reviews, allowing buyers to leave feedback for sellers and their products, helping build trust in the marketplace. To leave a review, find the leave a review button at the bottom of an order message window. Merchants are also able to carry over their reviews to other marketplaces that support NIP-85.",
+            "Yes, Shop implements NIP-85 for reviews, allowing buyers to leave feedback for sellers and their products, helping build trust in the marketplace. To leave a review, find the leave a review button at the bottom of an order message window. Merchants are also able to carry over their reviews to other marketplaces that support NIP-85.",
         },
         {
           title: "How do I contact a seller?",
           content:
-            "You can contact sellers through Shopstr's encrypted messaging system. Simply navigate to a listing and click on the merchant profile to send a secure message to the seller.",
+            "You can contact sellers through Shop's encrypted messaging system. Simply navigate to a listing and click on the merchant profile to send a secure message to the seller.",
         },
         {
           title: "Am I able to return an item?",
@@ -103,7 +103,7 @@ export default function Faq() {
         </h1>
 
         <p className="mx-auto mb-10 max-w-3xl text-center text-light-text/80 dark:text-dark-text/80">
-          Answers to common questions about using Shopstr
+          Answers to common questions about using Shop
         </p>
 
         {faqSections.map((section, sectionIndex) => (

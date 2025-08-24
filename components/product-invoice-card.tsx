@@ -501,7 +501,7 @@ export default function ProductInvoiceCard({
         userNPub +
         " for your " +
         title +
-        " listing on Shopstr" +
+        " listing on Shop" +
         productDetails +
         "! Check your " +
         selectedFiatOption +
@@ -1376,7 +1376,7 @@ export default function ProductInvoiceCard({
             productData.title +
             " listing" +
             productDetails +
-            " on Shopstr, please contact " +
+            " on Shop, please contact " +
             contact +
             " over " +
             contactType +
@@ -1393,7 +1393,7 @@ export default function ProductInvoiceCard({
           contactMessage =
             "To finalize the sale of your " +
             productData.title +
-            " listing on Shopstr, please contact " +
+            " listing on Shop, please contact " +
             contact +
             " over " +
             contactType +
@@ -1681,7 +1681,7 @@ export default function ProductInvoiceCard({
                     </span>
                   }
                   labelPlacement="inside"
-                  placeholder="@shopstr"
+                  placeholder="@HAHZ"
                   isInvalid={!!error}
                   errorMessage={error?.message}
                   onChange={onChange}

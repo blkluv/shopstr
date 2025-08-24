@@ -6,12 +6,12 @@ export default function Tos() {
     {
       title: "1. Platform Nature",
       content:
-        "Shopstr is a permissionless marketplace that operates on Nostr and Bitcoin protocols. We do not hold custody of funds, products, or communications, nor do we act as an intermediary between buyers and sellers. The platform provides an interface for peer-to-peer commerce without central authority.",
+        "Shop is a permissionless marketplace that operates on Nostr and Bitcoin protocols. We do not hold custody of funds, products, or communications, nor do we act as an intermediary between buyers and sellers. The platform provides an interface for peer-to-peer commerce without central authority.",
     },
     {
       title: "2. Relay Selection",
       content:
-        "Users have complete control over which Nostr relays they connect to and consequently which products they see. Shopstr does not control the content available on various relays. Users are responsible for configuring their relay connections according to their preferences and local regulations.",
+        "Users have complete control over which Nostr relays they connect to and consequently which products they see. Shop does not control the content available on various relays. Users are responsible for configuring their relay connections according to their preferences and local regulations.",
     },
     {
       title: "3. User Responsibilities",
@@ -21,12 +21,12 @@ export default function Tos() {
     {
       title: "4. Prohibited Items",
       content:
-        "Though Shopstr has no technical ability to prevent listings, users agree not to list or sell illegal goods or services, harmful substances, counterfeit items, stolen property, or any items that violate applicable laws. The community-based nature of Nostr allows users to choose relays that align with their values.",
+        "Though Shop has no technical ability to prevent listings, users agree not to list or sell illegal goods or services, harmful substances, counterfeit items, stolen property, or any items that violate applicable laws. The community-based nature of Nostr allows users to choose relays that align with their values.",
     },
     {
       title: "5. Transaction Risks",
       content:
-        "Users acknowledge that peer-to-peer transactions carry inherent risks including but not limited to: potential for scams, misrepresented items, shipping complications, and payment processing issues. Shopstr cannot intervene in disputes between buyers and sellers.",
+        "Users acknowledge that peer-to-peer transactions carry inherent risks including but not limited to: potential for scams, misrepresented items, shipping complications, and payment processing issues. Shop cannot intervene in disputes between buyers and sellers.",
     },
     {
       title: "6. Listing Guidelines",
@@ -41,17 +41,17 @@ export default function Tos() {
     {
       title: "8. Disclaimers",
       content:
-        "Shopstr is not a custodial service, cannot guarantee product quality or seller reliability, cannot reverse blockchain transactions, and is not responsible for user errors or losses resulting from key mismanagement. Due to the decentralized nature of the platform, Shopstr cannot remove listings from Nostr relays.",
+        "Shop is not a custodial service, cannot guarantee product quality or seller reliability, cannot reverse blockchain transactions, and is not responsible for user errors or losses resulting from key mismanagement. Due to the decentralized nature of the platform, Shop cannot remove listings from Nostr relays.",
     },
     {
       title: "9. Dispute Resolution",
       content:
-        "Any disputes must be resolved directly between buyers and sellers. We encourage users to communicate clearly and honestly. The platform's review system helps create accountability in the marketplace, but Shopstr cannot enforce resolutions or provide refunds.",
+        "Any disputes must be resolved directly between buyers and sellers. We encourage users to communicate clearly and honestly. The platform's review system helps create accountability in the marketplace, but Shop cannot enforce resolutions or provide refunds.",
     },
     {
       title: "10. Modifications",
       content:
-        "These terms may be updated periodically. Users are responsible for reviewing changes. Continued use of Shopstr constitutes acceptance of current terms.",
+        "These terms may be updated periodically. Users are responsible for reviewing changes. Continued use of Shop constitutes acceptance of current terms.",
     },
     {
       title: "Contact",
@@ -68,7 +68,7 @@ export default function Tos() {
         </h1>
 
         <p className="mx-auto mb-10 max-w-3xl text-center text-light-text/80 dark:text-dark-text/80">
-          User agreement and usage guidelines for Shopstr
+          User agreement and usage guidelines for Shop
         </p>
 
         <div className="mb-4 text-right text-sm text-light-text/70 dark:text-dark-text/70">
