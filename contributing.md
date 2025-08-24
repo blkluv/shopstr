@@ -34,7 +34,7 @@ git --version
 
 ### 1. Fork the Repository
 
-1. Visit [https://github.com/shopstr-eng/shopstr](https://github.com/shopstr-eng/shopstr)
+1. Visit [https://github.com/blkluv/shopstr](https://github.com/blkluv/shopstr)
 2. Click the "Fork" button in the top-right corner
 3. Select your GitHub account to create the fork
 
@@ -48,7 +48,7 @@ git clone https://github.com/YOUR-USERNAME/shopstr.git
 cd shopstr
 
 # Add the original repository as upstream
-git remote add upstream https://github.com/shopstr-eng/shopstr.git
+git remote add upstream https://github.com/blkluv/shopstr.git
 
 # Verify remotes
 git remote -v
@@ -59,8 +59,8 @@ You should see:
 ```
 origin    https://github.com/YOUR-USERNAME/shopstr.git (fetch)
 origin    https://github.com/YOUR-USERNAME/shopstr.git (push)
-upstream  https://github.com/shopstr-eng/shopstr.git (fetch)
-upstream  https://github.com/shopstr-eng/shopstr.git (push)
+upstream  https://github.com/blkluv/shopstr.git (fetch)
+upstream  https://github.com/blkluv/shopstr.git (push)
 ```
 
 ## Local Development Setup

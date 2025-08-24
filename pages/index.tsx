@@ -393,7 +393,7 @@ export default function Landing() {
               </button>
               <div className="flex h-auto items-center gap-6">
                 <a
-                  href="https://github.com/shopstr-eng/shopstr"
+                  href="https://github.com/blkluv/shopstr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-transform hover:scale-110"
@@ -435,7 +435,7 @@ export default function Landing() {
                   />
                 </a>
                 <a
-                  href="https://x.com/shopstrmarkets"
+                  href="https://x.com/arvrtise"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-transform hover:scale-110"
