@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 33, 33, 33;
-  --background-start-rgb: 232, 232, 232;
-  --background-end-rgb: 232, 232, 232;
+  --foreground-rgb: 255, 255, 255; /* White text */
+  --background-start-rgb: 0, 0, 0; /* Pure black */
+  --background-end-rgb: 18, 18, 18; /* Dark gray for subtle gradient */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 232, 232, 232;
-    --background-start-rgb: 33, 33, 33;
-    --background-end-rgb: 33, 33, 33;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 18, 18, 18;
   }
 }
 
@@ -20,25 +20,29 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
-      transparent,
+      rgb(var(--background-start-rgb)),
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    );
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 7px;
+  width: 8px;
 }
 
 *::-webkit-scrollbar-track {
+  background: #1a1a1a;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  border: 1px solid;
-  background-color: #686868;
+  background: linear-gradient(to bottom, #fbbf24, #a855f7);
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #f59e0b, #9333ea);
 }
 
 html {
@@ -51,14 +55,47 @@ body {
   height: 100%;
   overflow: auto;
   position: relative;
+  scroll-behavior: smooth;
+}
+
+/* Gradient Text Utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-shopstr-yellow to-shopstr-purple bg-clip-text text-transparent;
+}
+
+/* Card Hover Effects */
+.hover-card {
+  @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl;
+}
+
+/* Glass Morphism */
+.glass {
+  @apply backdrop-blur-md bg-white/5 border border-white/10;
 }
 
 .text-xxs {
-  font-size: 0.63rem; /* Example of a smaller font size than text-xs */
+  font-size: 0.63rem;
 }
 
 .break-words-all {
   word-break: break-all;
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Gradient Border */
+.gradient-border {
+  border: 2px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+              linear-gradient(to right, #fbbf24, #a855f7) border-box;
 }
