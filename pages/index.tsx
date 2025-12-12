@@ -458,7 +458,7 @@ export default function Landing() {
               </div>
             </div>
             <p className="text-light-text dark:text-dark-text">
-              © 2025 Shop. Market Inc.
+              © 2025 5DTOK SHOP
             </p>
           </div>
         </div>
